@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stick & Dot - One Pager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: white;
+            color: black;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 60px;
+        }
+
+        .logo-circle {
+            width: 80px;
+            height: 80px;
+            background-color: black;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+        }
+
+        .logo-lines {
+            width: 350px;
+            margin: 0 auto 15px;
+            position: relative;
+        }
+
+        .logo-lines::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background-color: black;
+        }
+
+        .logo-lines::after {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: black;
+        }
+
+        .logo-text {
+            font-family: 'Arial Black', Arial, sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+            letter-spacing: 0px;
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        .tagline {
+            font-size: 16px;
+            color: #888;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+        .content {
+            margin-bottom: 60px;
+        }
+
+        .company-description {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .product-description {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .contact {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="logo-circle"></div>
+            <div class="logo-lines"></div>
+            <div class="logo-text">STICK & DOT</div>
+            <div class="tagline">Don't market, just mark!</div>
+        </div>
+
+        <div class="content">
+            <div class="company-description">
+                Stick and Dot is an India focused technology company established in 2023 developing digital products shaped by thoughtful design and practical intelligence. With its recent expansion into AI and ML, the company is building scalable and adaptable systems across domains.
+            </div>
+
+            <div class="product-description">
+                BeatMind, Stick and Dot's AI for EDM platform helps create high-quality tracks quickly and with precise control. It generates style-based variations, responds to custom prompts and offers clear control over genre, mood and BPM making music creation faster and more creative.
+            </div>
+
+            <div class="contact">
+                <a href="mailto:yusuf@stickanddot.com">yusuf@stickanddot.com</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2025 All Rights Reserved
+        </div>
+    </div>
+</body>
+</html>
